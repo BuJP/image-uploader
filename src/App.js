@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { UploadedFile } from "./components/UploadedFile";
 import { UploadFile } from "./components/UploadFile";
 import { UploadLoading } from "./components/UploadLoading";
 
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Wrapper>
-        <UploadLoading />
+        <UploadedFile />
       </Wrapper>
     </div>
   );

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
   padding: 2.5rem 2rem;
@@ -8,4 +8,9 @@ export const Container = styled.div`
   @media (min-width: 471px) {
     border-radius: 1rem;
   }
+`;
+
+export const ImageContainerStyle = css`
+  width: 100%;
+  border-radius: 1rem;
 `;
